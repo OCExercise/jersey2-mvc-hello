@@ -5,6 +5,10 @@ Nothing more, nothing less.
 ## Usage
 
 1. Edit [`src/main/webapp/WEB-INF/web.xml`](src/main/webapp/WEB-INF/web.xml) and change the value of `context-param` `hello.name` to whatever you like.
+    * Consider marking `web.xml` `--assume-unchanged`.
+        ```bash
+        $ git update-index --assume-unchanged src/main/webapp/WEB-INF/web.xml
+        ```
 1. Execute the following
     ```bash
     $ ./gradlew clean build appRunWar
