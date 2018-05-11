@@ -11,9 +11,6 @@ $ ./gradlew clean build appRunWar
 
 $ ./gradlew clean build appRunWar -PhttpPort=<your preferred port>
 
-```
-Application opens here
-
 # Debugging 
 $ ./gradlew clean build appRunWarDebug
 
