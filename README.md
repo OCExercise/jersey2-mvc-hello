@@ -4,7 +4,7 @@ Nothing more, nothing less.
 
 ## Usage
 
-1. Edit src/main/WEB-INF/web.xml and change the value of `context-param` `hello.name` to whatever you like.
+1. Edit [`src/main/webapp/WEB-INF/web.xml`](src/main/webapp/WEB-INF/web.xml) and change the value of `context-param` `hello.name` to whatever you like.
 1. Execute the following
     ```bash
     $ ./gradlew clean build appRunWar
