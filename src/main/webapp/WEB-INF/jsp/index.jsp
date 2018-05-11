@@ -7,5 +7,6 @@
 <html>
     <body>
         <p>Hello, ${it.name}</p>
+        <img src="/images/dunkins-guy.gif" />
     </body>
 </html>

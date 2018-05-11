@@ -32,6 +32,10 @@ repositories {
     mavenLocal()
 }
 
+gretty {
+    contextPath = '/'
+}
+
 dependencies {
 
     compile group: 'javax.ws.rs', name: 'javax.ws.rs-api', version:"$jaxWSRSVersion"

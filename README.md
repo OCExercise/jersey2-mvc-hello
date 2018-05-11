@@ -24,4 +24,4 @@ Nothing more, nothing less.
 
     $ ./gradlew clean build appRunWar -PhttpPort=<your preferred application listening port> -PdebugPort=<your preferred debugging port>
     ```
-1. Browse to [http://localhost:8080/hello](http://localhost:8080/hello), replacing `8080` with your preferred application listening port if you so configured. Don't forget to attach a debugger if you're running `appRunWarDebug`.
+1. Browse to [http://localhost:8080/](http://localhost:8080/), replacing `8080` with your preferred application listening port if you so configured. Don't forget to attach a debugger if you're running `appRunWarDebug`.
